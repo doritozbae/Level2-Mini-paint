@@ -1,0 +1,8 @@
+.canvas {
+  background: white;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  align-self: center;
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.28);
+}

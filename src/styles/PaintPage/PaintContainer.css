@@ -1,0 +1,31 @@
+.paint-container {
+  background: gray;
+  max-width: 1100px;
+  height: 850px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row;
+  overflow: hidden;
+}
+
+.header p {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.header p::before {
+  content: "";
+  background-color: white;
+  transition: 0.4s ease-out;
+  width: 0%;
+  height: 2px;
+
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+.header p:hover::before {
+  width: 100%;
+}

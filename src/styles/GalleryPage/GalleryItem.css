@@ -1,0 +1,19 @@
+.gallery-item {
+  color: black;
+  padding: 15px;
+  border-radius: 7px;
+  margin: 30px auto;
+  background-color: aliceblue;
+}
+
+.gallery-item__pic {
+  background: gray;
+  width: 500px;
+  height: 400px;
+  margin: 6px 0;
+}
+
+.gallery-item__date {
+  display: flex;
+  justify-content: flex-end;
+}
